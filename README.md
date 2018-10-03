@@ -6,7 +6,7 @@ Inbox for [Todoist](https://en.todoist.com/tour) is a simple Übersicht widget d
 
 
 Below is a preview of what Inbox for Todoist can look like:
-![Screenshot](Screenshot.jpg)
+![Screenshot](Screenshot.png)
 
 ## Installation ##
 Clone this repository to your Übersicht folder:
