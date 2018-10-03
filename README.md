@@ -30,6 +30,6 @@ By default, Inbox for Todoist refreshes every second. To reduce CPU & Memory Usa
 -   Removing the sixth `#` will make the widget refresh every `12 hours`.
 
 ## Possible Eventual Improvements ##
--   [ ]  Priority Color coding
--   [ ]  Due Date Sorting
+-   Priority Color coding
+-   Due Date Sorting
 -   Todoist Markdown Support
