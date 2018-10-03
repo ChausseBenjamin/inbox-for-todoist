@@ -6,11 +6,11 @@ Inbox for [Todoist](https://en.todoist.com/tour) is a simple Übersicht widget d
 
 
 Below is a preview of what Inbox for Todoist can look like:
-![Screenshot](Screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Installation ##
 Clone this repository to your Übersicht folder:
-`~/Library/Application Support/Übersicht/widgets/``
+`~/Library/Application Support/Übersicht/widgets/`
 
 ### Setting up your own Todoist Token ###
 On the second line of the `todoistinbox.py` file, replace
