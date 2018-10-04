@@ -36,7 +36,9 @@ The following line to edit are:
 -   To edit the color of tasks labelled `priority2`, edit the `rgba(r, g, b, a)` on line `23`
 -   To edit the color of tasks labelled `priority3`, edit the `rgba(r, g, b, a)` on line `25`
 -   To edit the color of tasks labelled `priority4`, edit the `rgba(r, g, b, a)` on line `27`
+
 The default color for the widget is `rgba(#F2F2F2, 1.0)`.
+
 ## Possible Eventual Improvements ##
 -   Due Date Sorting
 -   Todoist Markdown Support
