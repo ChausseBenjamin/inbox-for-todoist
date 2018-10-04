@@ -17,6 +17,14 @@ style: """
     font-size: 16px
     font-family: Avenir-Light
     text-align: left
+    .priority1
+      color: rgba(215, 65, 64, 1.0)
+    .priority2
+      color: rgba(255, 152, 76, 1.0)
+    .priority3
+      color: rgba(255, 210, 105, 1.0)
+    .priority4
+      color: rgba(#F2F2F2, 1.0)
   .title
     color: #F2F2F2
     font-size: 24px

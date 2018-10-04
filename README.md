@@ -28,8 +28,15 @@ By default, Inbox for Todoist refreshes every second. To reduce CPU & Memory Usa
 -   Removing the fourth `#` will make the widget refresh every `20 minutes`.
 -   Removing the fifth `#` will make the widget refresh every `hour`.
 -   Removing the sixth `#` will make the widget refresh every `12 hours`.
-
+## Priority Color Coding ##
+You can change the colors of tasks inside of the `.coffee` file.
+By default, tasks are colored the same way they are in the todoist mac app in dark.
+The following line to edit are:
+-   To edit the color of tasks labelled `priority1`, edit the `rgba(r, g, b, a)` on line `21`
+-   To edit the color of tasks labelled `priority2`, edit the `rgba(r, g, b, a)` on line `23`
+-   To edit the color of tasks labelled `priority3`, edit the `rgba(r, g, b, a)` on line `25`
+-   To edit the color of tasks labelled `priority4`, edit the `rgba(r, g, b, a)` on line `27`
+The default color for the widget is `rgba(#F2F2F2, 1.0)`.
 ## Possible Eventual Improvements ##
--   Priority Color coding
 -   Due Date Sorting
 -   Todoist Markdown Support
