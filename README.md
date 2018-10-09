@@ -45,3 +45,4 @@ The default color for the widget is `rgba(#F2F2F2, 1.0)`.
 ## Possible Eventual Improvements ##
 -   Due Date Sorting
 -   Todoist Markdown Support
+-   Indent embedded subtasks
