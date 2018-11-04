@@ -49,5 +49,6 @@ def main(token='___YOUR TODOIST TOKEN HERE:___'):  # FIXME: Remove personal toke
                         pri = "<p class='priority1'>"  # FIXME: Color coding not working...
                     rank += 1
                     print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
+
 if __name__ == '__main__':
     main()

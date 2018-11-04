@@ -46,6 +46,6 @@ The default color for the widget is `rgba(#F2F2F2, 1.0)`.
 (checked items are under developpement)
 -   [ ] Due Date Sorting
 -   [ ] Todoist Markdown Support
--   [ ] Keep a record of tasks offline
-    -   [ ] Display an `Offline` indicator
+-   [x] Keep a record of tasks offline
+    -   [x] Display an `Offline` indicator
 -   [ ] Indent embedded subtasks
