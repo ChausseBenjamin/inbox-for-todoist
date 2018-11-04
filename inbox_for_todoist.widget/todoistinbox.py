@@ -16,6 +16,6 @@ def main(token='___YOUR TODOIST TOKEN HERE:___'):
                 elif i['priority'] == 4:
                     pri = "<p class='priority1'>"
                 rank += 1
-                print("<b>", rank, '- </b>', i['content'], "<p class='mini'> </p>")  # print name and id
+                print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
 if __name__ == '__main__':
     main()

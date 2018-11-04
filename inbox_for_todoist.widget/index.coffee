@@ -1,6 +1,6 @@
 # -*-coding:utf-8 -*
 
-command: ". todoist/run.sh"
+command: "cd Inbox-for-Todoist/inbox_for_todoist.widget; sh run.sh"
 
 refreshFrequency: 1000#*60#*5#*2#*2#*3#*12
 
