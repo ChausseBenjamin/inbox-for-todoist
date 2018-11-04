@@ -2,7 +2,7 @@
 ## An Übersicht widget for your Todoist Inbox ##
 ---
 ## About ##
-Inbox for [Todoist](https://en.todoist.com/tour) is a simple Übersicht widget designed to present your todoist inbox on your Desktop. It is in no way affiliated with the Brand Todoist or Doist in any way nor is it addiliated with [Übersicht](http://tracesof.net/uebersicht/) or [Felix Hageloh](https://github.com/felixhageloh)
+Inbox for [Todoist](https://en.todoist.com/tour) is a simple Übersicht widget designed to present your todoist inbox on your Desktop. It is in no way affiliated with the Brand Todoist or Doist in any way nor is it affiliated with [Übersicht](http://tracesof.net/uebersicht/) or [Felix Hageloh](https://github.com/felixhageloh)
 
 
 Below is a preview of what Inbox for Todoist can look like:
