@@ -3,7 +3,7 @@ import online
 import pickle
 import os
 
-def main(token='___INSERT YOUR TODOIST API TOKEN HERE:___'):  # FIXME: Remove personal token when comitting
+def main(token='___YOUR TODOIST TOKEN HERE:___'):  # FIXME: Remove personal token when comitting
     if online.main() == False:
         with open("todoist.cache", "rb") as myFile:
             loaded_cache = pickle.load(myFile)
@@ -20,7 +20,7 @@ def main(token='___INSERT YOUR TODOIST API TOKEN HERE:___'):  # FIXME: Remove pe
                     elif i['priority'] == 4:
                         pri = "<p class='priority1'>"  # FIXME: Color coding not working...
                     rank += 1
-                    print("<b>", rank, '- </b>', i['content'], "<p class='mini'> </p>")  # print name and id
+                    print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
 
 
     elif online.main() == True:
@@ -48,6 +48,6 @@ def main(token='___INSERT YOUR TODOIST API TOKEN HERE:___'):  # FIXME: Remove pe
                     elif i['priority'] == 4:
                         pri = "<p class='priority1'>"  # FIXME: Color coding not working...
                     rank += 1
-                    print("<b>", rank, '- </b>', i['content'], "<p class='mini'> </p>")  # print name and id
+                    print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
 if __name__ == '__main__':
     main()
