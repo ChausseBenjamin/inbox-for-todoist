@@ -102,7 +102,9 @@ ENV/
 .mypy_cache/
 
 # Widgets caches
+*todoist.cache
 todoist.cache
 
 # API keys
+*todoist_API.txt
 todoist_API.txt
