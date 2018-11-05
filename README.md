@@ -16,11 +16,13 @@ Clone this repository to your Übersicht folder:
 `~/Library/Application Support/Übersicht/widgets/`
 
 ### Setting up your own Todoist Token ###
-On the second line of the `todoistinbox.py` file, replace
+The `inbox_for_todoist` folder contains a file named `todoist_API.txt`. In that file, replace
 `___YOUR TODOIST TOKEN HERE:___` (keep the ' ' for it to work) with your very own todoist API token.
 
 
 You todoist token can be found on [Todoist](https://todoist.com) inside of `settings` and then `Integrations`. It will be labelled as `API Token`.
+
+Rest assured that if you submit a pull request, your token will not be shared as `todoist_API.txt` has been set to be ignored by github inside the `.gitignore` file `line: 108`. Also none of your tasks stored inside your offline cache will be shared as `todoist.cache` has been set to be ignored by github inside the `.gitignore` file `line: 105`.
 
 ## Preferences ##
 ### Refresh Rate ###
@@ -42,10 +44,14 @@ The following line to edit are:
 
 The default color for the widget is `rgba(#F2F2F2, 1.0)`.
 
+## Recent Updates ##
+-   `2018-11-04` Widget now keeps an offline cache of your tasks
+    -   No more Error messages when you computer's offline (due to cache)
+-   `2018-11-04` API keys are stored on a .txt file outside the script. (`todoist_API.txt`)
+-   `2018-10-03` Priority color coding Support
+
 ## Possible Eventual Improvements ##
 (checked items are under developpement)
 -   [ ] Due Date Sorting
 -   [ ] Todoist Markdown Support
--   [x] Keep a record of tasks offline
-    -   [x] Display an `Offline` indicator
 -   [ ] Indent embedded subtasks
