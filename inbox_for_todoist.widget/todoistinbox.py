@@ -3,7 +3,10 @@ import online
 import pickle
 import os
 
-def main(token='___YOUR TODOIST TOKEN HERE:___'):  # FIXME: Remove personal token when comitting
+def main():
+    with open('todoist_API.txt') as f:  # Opens the API key file
+        token = f.readline()  # Sets the first line of the txt file as your API Key
+
     if online.main() == False:
         with open("todoist.cache", "rb") as myFile:
             loaded_cache = pickle.load(myFile)
