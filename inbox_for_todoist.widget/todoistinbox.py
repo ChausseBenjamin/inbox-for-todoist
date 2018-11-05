@@ -5,7 +5,7 @@ import os
 
 def main():
     with open('todoist_API.txt') as f:  # Opens the API key file
-        token = f.readline()  # Sets the first line of the txt file as your API Key
+    token = f.readline()  # Sets the first line of the txt file as your API Key
 
     if online.main() == False:
         with open("todoist.cache", "rb") as myFile:
@@ -21,7 +21,7 @@ def main():
                     elif i['priority'] == 3:
                         pri = "<p class='priority2'>"
                     elif i['priority'] == 4:
-                        pri = "<p class='priority1'>"  # FIXME: Color coding not working...
+                        pri = "<p class='priority1'>"
                     rank += 1
                     print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
 
