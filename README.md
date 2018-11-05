@@ -26,13 +26,16 @@ Rest assured that if you submit a pull request, your token will not be shared as
 
 ## Preferences ##
 ### Refresh Rate ###
-By default, Inbox for Todoist refreshes every second. To reduce CPU & Memory Usage, you may go to line 5 of `index.coffee` and adjust this:
--   Removing the first `#` will make the widget refresh every `minute`.
--   Removing the second `#` will make the widget refresh every `5 minutes`.
--   Removing the third `#` will make the widget refresh every `10 minutes`.
--   Removing the fourth `#` will make the widget refresh every `20 minutes`.
--   Removing the fifth `#` will make the widget refresh every `hour`.
--   Removing the sixth `#` will make the widget refresh every `12 hours`.
+By default, Inbox for Todoist refreshes every second. To reduce CPU & Memory Usage, you may go to `line: 5` of `index.coffee` and adjust this:
+
+| Removing the first  | `#` | will make the widget refresh every | `minute`.     |
+|:--------------------|:----| :--------------------------------- | ------------- |
+| __Removing the second__ | `#` | __will make the widget refresh every__ | `5 minutes`.  |
+| __Removing the third__  | `#` | __will make the widget refresh every__ | `10 minutes`. |
+| __Removing the fourth__ | `#` | __will make the widget refresh every__ | `20 minutes`. |
+| __Removing the fifth__  | `#` | __will make the widget refresh every__ | `hour`.       |
+| __Removing the sixth__  | `#` | __will make the widget refresh every__ | `12 hours`.   |
+
 ## Priority Color Coding ##
 You can change the colors of tasks inside of the `.coffee` file.
 By default, tasks are colored the same way they are in the todoist mac app in dark.
