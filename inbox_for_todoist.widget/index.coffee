@@ -6,10 +6,9 @@ refreshFrequency: 1000#*60#*5#*2#*2#*3#*12
 
 style: """
   top: 245px
-  right: 0px
+  left: 0px
   width: 240px
   height: 600px
-  margin-left: -(@width / 2)
   overflow: hidden
   .content
     color: #F2F2F2
