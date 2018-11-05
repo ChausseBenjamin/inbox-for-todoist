@@ -22,7 +22,7 @@ The `inbox_for_todoist` folder contains a file named `todoist_API.txt`. In that 
 
 You todoist token can be found on [Todoist](https://todoist.com) inside of `settings` and then `Integrations`. It will be labelled as `API Token`.
 
-Rest assured that if you submit a merge request, your token will not be shared as `todoist_API.txt` has been set to be ignored by github inside the `.gitignore` file `line: 108`. Also none of your tasks stored inside your offline cache will be shared as `todoist.cache` has been set to be ignored by github inside the `.gitignore` file `line: 105`.
+Rest assured that if you submit a pull request, your token will not be shared as `todoist_API.txt` has been set to be ignored by github inside the `.gitignore` file `line: 108`. Also none of your tasks stored inside your offline cache will be shared as `todoist.cache` has been set to be ignored by github inside the `.gitignore` file `line: 105`.
 
 ## Preferences ##
 ### Refresh Rate ###
