@@ -5,7 +5,7 @@ import os
 
 def main():
     with open('todoist_API.txt') as f:  # Opens the API key file
-    token = f.readline()  # Sets the first line of the txt file as your API Key
+        token = f.readline()  # Sets the first line of the txt file as your API Key
 
     if online.main() == False:
         with open("todoist.cache", "rb") as myFile:
