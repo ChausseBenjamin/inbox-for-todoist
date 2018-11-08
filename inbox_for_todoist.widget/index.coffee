@@ -2,7 +2,7 @@
 
 command: "cd Inbox-for-Todoist/inbox_for_todoist.widget; sh run.sh"
 
-refreshFrequency: 1000#*60#*5#*2#*2#*3#*12
+refreshFrequency: 1000*60#*5#*2#*2#*3#*12
 
 style: """
   top: 245px
