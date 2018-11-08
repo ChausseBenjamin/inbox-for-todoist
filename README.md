@@ -42,7 +42,7 @@ By default, tasks are colored the same way they are in the todoist mac app in da
 The following line to edit are:
 
 |To edit the color of tasks labelled|`priority1`|edit the|`rgba(r, g, b, a)`|on line|`21`|
-|:----------------------------------|-----------|:-------|:-----------------|:---------- |
+|:---|---|:---|:---|:---|
 |__To edit the color of tasks labelled__|`priority2`|__edit the__|`rgba(r, g, b, a)`|__on line__|`23`|
 |__To edit the color of tasks labelled__|`priority3`|__edit the__|`rgba(r, g, b, a)`|__on line__|`25`|
 |__To edit the color of tasks labelled__|`priority4`|__edit the__|`rgba(r, g, b, a)`|__on line__|`27`|
