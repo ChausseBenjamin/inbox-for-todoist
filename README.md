@@ -59,6 +59,8 @@ The default color for the widget is `rgba(#F2F2F2, 1.0)`.
 
 ## Possible Eventual Improvements ##
 (checked items are under developpement)
--   [ ] Due Date Sorting
+-   [ ] Task Sorting
+    - [ ] Tasks sorted by due date first
+    - [ ] Task sorted by priority second
 -   [ ] Todoist Markdown Support
 -   [ ] Indent embedded subtasks
