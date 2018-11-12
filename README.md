@@ -17,7 +17,7 @@ Clone this repository to your Übersicht folder:
 
 ### Setting up your own Todoist Token ###
 The `inbox_for_todoist` folder contains a file named `todoist_API.txt`. In that file, replace
-`___YOUR TODOIST TOKEN HERE:___` (keep the ' ' for it to work) with your very own todoist API token.
+`___YOUR TODOIST TOKEN HERE:___` with your own token.
 
 
 You todoist token can be found on [Todoist](https://todoist.com) inside of `settings` and then `Integrations`. It will be labelled as `API Token`.
