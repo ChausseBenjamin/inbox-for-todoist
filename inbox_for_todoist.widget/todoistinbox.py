@@ -2,6 +2,8 @@
 import online
 import pickle
 import os
+import datetime
+import operator
 
 def main():
     with open('todoist_API.txt') as f:  # Opens the API key file
