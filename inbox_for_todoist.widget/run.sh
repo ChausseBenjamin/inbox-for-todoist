@@ -1,2 +1,2 @@
 export LANG=en_CA.UTF-8;
-python3 todoistinbox.py
+/usr/local/bin/python3 todoistinbox.py
