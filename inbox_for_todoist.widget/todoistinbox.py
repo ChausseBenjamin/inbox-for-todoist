@@ -2,6 +2,7 @@
 import online
 import pickle
 import os
+from todoist.api import TodoistAPI
 
 def main():
     with open('todoist_API.txt') as f:  # Opens the API key file
@@ -27,7 +28,6 @@ def main():
 
 
     elif online.main() == True:
-        from todoist.api import TodoistAPI
         api = TodoistAPI(token)
         api.sync()  # initial sync
 

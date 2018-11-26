@@ -11,6 +11,41 @@ Below is a preview of what Inbox for Todoist can look like:
 
 In some context with other widgets, your interface could look like this:
 ![Screenshot 2](screenshot2.png)
+
+## Requirements ##
+
+-   Python 3
+-   Todoist's Python Package
+
+### Installing Python 3 ###
+#### From python's web site ####
+Download and install the latest version of python 3 from [this website][687c9c62]:
+
+[https://www.python.org/downloads/mac-osx/][a832e4a1]
+
+  [687c9c62]: https://www.python.org/downloads/mac-osx/ "Python 3 mac downloads"
+
+  [a832e4a1]: https://www.python.org/downloads/mac-osx/ "Python 3 mac downloads"
+
+#### Using homebrew (Recommended)####
+
+-   First install homebrew (if not already installed).
+    - Do this by running the following command in a terminal window
+
+
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+-   Run the following command in a terminal window:
+
+
+    brew install python
+
+### Installing Todoist's Python Package ###
+Open a terminal window and type:
+
+    pip3 install todoist-python
+
+
 ## Installation ##
 Clone this repository to your Übersicht folder:
 `~/Library/Application Support/Übersicht/widgets/`
