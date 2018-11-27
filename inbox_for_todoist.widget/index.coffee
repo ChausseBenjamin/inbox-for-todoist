@@ -8,7 +8,7 @@ style: """
   top: 245px
   left: 0px
   width: 240px
-  height: 600px
+  height: 490px
   overflow: hidden
   .content
     color: #F2F2F2
