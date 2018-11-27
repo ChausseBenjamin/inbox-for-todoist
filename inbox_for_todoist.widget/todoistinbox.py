@@ -49,7 +49,7 @@ def main():
                     elif i['priority'] == 3:
                         pri = "<p class='priority2'>"
                     elif i['priority'] == 4:
-                        pri = "<p class='priority1'>"  # FIXME: Color coding not working...
+                        pri = "<p class='priority1'>"
                     rank += 1
                     print(pri, "<b>", rank, '- </b>', i['content'], "</p>")  # print name and id
 
