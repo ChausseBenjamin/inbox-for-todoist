@@ -5,6 +5,7 @@ An Übersicht widget for your Todoist Inbox
 
 $
 
+<<<<<<< HEAD
 About
 
 Inbox for Todoist is a simple Übersicht widget designed to present your todoist inbox on your Desktop. It is in no way affiliated with the Brand Todoist or Doist in any way nor is it affiliated with Übersicht or Felix Hageloh
@@ -43,6 +44,13 @@ Open a terminal window and type:
 pip3 install todoist-python
 
 
+=======
+In some context with other widgets, your interface could look like this:
+![Screenshot 2](screenshot2.png)
+## Installation ##
+Clone this repository to your Übersicht folder:
+`~/Library/Application Support/Übersicht/widgets/`
+>>>>>>> parent of 459addd... - Updated .sh command for broader compatibility
 
 Installation
 
