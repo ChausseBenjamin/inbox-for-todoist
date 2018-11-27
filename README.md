@@ -26,12 +26,12 @@ Download and install the latest version of python 3 from this website :
 https://www.python.org/downloads/mac-osx/
 
 Using homebrew (Recommended)
-• 
+•
 First install homebrew (if not already installed):
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install )"
 
-• 
+•
 Run the following command in a terminal window:
 
 brew install python
@@ -46,7 +46,7 @@ pip3 install todoist-python
 
 Installation
 
-Clone this repository to your Übersicht folder: ~/Library/Application Support/Übersicht/widgets/ 
+Clone this repository to your Übersicht folder: ~/Library/Application Support/Übersicht/widgets/
 
 Setting up your own Todoist Token
 
@@ -67,7 +67,7 @@ Priority Color Coding
 
 You can change the colors of tasks inside of the .coffee file. By default, tasks are colored the same way they are in the todoist mac app in dark. The following line to edit are:
 
-To edit the color of tasks labelled | priority1 | edit the | rgba(r, g, b, a) | on line | 21 --|---|---|---|---|-- To edit the color of tasks labelled | priority2 | edit the | rgba(r, g, b, a) | on line | 23 To edit the color of tasks labelled | priority3 | edit the | rgba(r, g, b, a) | on line | 25 To edit the color of tasks labelled | priority4 | edit the | rgba(r, g, b, a) | on line | 27 
+To edit the color of tasks labelled | priority1 | edit the | rgba(r, g, b, a) | on line | 21 --|---|---|---|---|-- To edit the color of tasks labelled | priority2 | edit the | rgba(r, g, b, a) | on line | 23 To edit the color of tasks labelled | priority3 | edit the | rgba(r, g, b, a) | on line | 25 To edit the color of tasks labelled | priority4 | edit the | rgba(r, g, b, a) | on line | 27
 
 The default color for the widget is rgba(#F2F2F2, 1.0) .
 
@@ -87,4 +87,3 @@ Possible Eventual Improvements
 
 • [ ] Todoist Markdown Support
 • [ ] Indent embedded subtasks
-
