@@ -7,7 +7,6 @@ the_height_i_want: ~"calc(100% - 100px)"
 
 
 style: """
-  background-color: white
   width: 240px
   margin-top : 250px
   margin-bottom 400px
