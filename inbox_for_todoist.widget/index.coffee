@@ -3,12 +3,15 @@
 command: "cd Inbox-for-Todoist/inbox_for_todoist.widget; sh run.sh"
 
 refreshFrequency: 1000*60#*5#*2#*2#*3#*12
+the_height_i_want: ~"calc(100% - 100px)"
+
 
 style: """
-  top: 245px
-  left: 0px
+  background-color: white
   width: 240px
-  height: 490px
+  margin-top : 250px
+  margin-bottom 400px
+  height: calc(100vh - 420px)
   overflow: hidden
   .content
     color: #F2F2F2
